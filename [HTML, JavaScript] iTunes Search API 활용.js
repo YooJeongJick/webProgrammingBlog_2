@@ -13,34 +13,5 @@ fetch('https://itunes.apple.com/lookup?id=1635469693&entity=song')
         }
     });
 
-// fetch('https://itunes.apple.com/lookup?id=1635469693&entity=song')
-//     .then(function (response) {
-//         return response.json();
-//     })
-//     .then((json) => {
-//         for (let i = 1; i < json["results"].length; i++) {
-//             console.log(json["results"][i]["trackName"]);
-//         }
-
-//         function musicClick() {
-//             var numberIndex = Math.floor(Math.random() * json["results"].length) + 1;
-//             const mbody = document.querySelector("#modal-body");
-//             let trs = ''
-//             trs += `<h5>${json["results"][numberIndex]["trackName"]}</h5>`
-//             mbody.innerHTML = trs;
-
-//             var btnCopy = document.querySelector("#btnCopy");
-//             btnCopy.addEventListener("click", () => {
-//                 navigator.clipboard.writeText
-//                     (json["results"][numberIndex]["trackName"]).then(
-//                         () => { }
-//                     );
-//             })
-//         }
-
-//         var musicButton = document.querySelector("#music_button");
-//         musicButton.addEventListener("click", musicClick);
-
-//     });
 
     
